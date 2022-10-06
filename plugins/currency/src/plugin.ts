@@ -13,7 +13,7 @@ export const CurrencyPage = currencyPlugin.provide(
   createRoutableExtension({
     name: 'CurrencyPage',
     component: () =>
-      import('./components/ExampleComponent').then(m => m.ExampleComponent),
+      import('./components/CurrencyExchangeComponent').then(m => m.CurrencyExchange),
     mountPoint: rootRouteRef,
   }),
 );
